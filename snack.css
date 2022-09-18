@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/4434748.jpg");
+    background-repeat: no-repeat;
+   background-size:100% 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Lato', sans-serif;
+   
+   
+}
+h1{
+    position: absolute;
+    top: 20px;
+    color: white;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border: 1px solid green;
+    position: absolute;
+    top: 100px;
+    background-image: linear-gradient(hotpink,rgb(16, 182, 65));
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(30,1fr);
+}
+.head{
+    background-color: white;
+    border-radius: 5px;
+}
+.snack_body{
+    background-color: purple;
+    border-radius: 8px;
+}
+.food{
+    background-color: black;
+    border-radius: 50%;
+
+}
+ #over {
+    position: absolute;
+    
+ 
+  
+    top: 300px;
+    
+   
+   
+    
+
+}
+#over h2{
+    font-size: 80px;
+    color: brown;
+}
+ /* button{
+    align-items: center; 
+     justify-content: center; 
+} */
+ .inactive{
+    display: none;
+} 
+.btn{
+    background-color: green;
+    height: 30px;
+    width: 80px;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(10, 80, 10);
+    transition: 500ms;
+}
+#score{
+    position: absolute;
+    right: 300px;
+    top: 80px;
+}
+#developed{
+    position: absolute;
+    top: 35rem;
+    left: 2rem;
+    color: white;
+}
